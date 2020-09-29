@@ -36,9 +36,9 @@ def setup(bot):
     bot.add_cog(CustomCommands(bot))
 ```
 
-```py
+`
 Custom.Commands("Custom", ctx.author.id, a, b)
-```
+`
 해당 부분은 Custom이라는 json파일이 있어야합니다. 예를 들어 File.json 파일을 만드시고 그럼 Custom.Commands("File" ...) 가
 됩니다.
 
