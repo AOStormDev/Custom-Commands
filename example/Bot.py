@@ -6,7 +6,7 @@ bot = commands.Bot(command_prefix="/")
 
 @bot.command()
 async def 커맨드추가(ctx, a, b):
-    Custom("Custom", ctx.user.id, a, b)
+    Custom("Custom", ctx.author.id, a, b)
     await ctx.send(f"`{a}` 라고 하시면 `{b}` 라고 할게요!")
 
 @bot.event
